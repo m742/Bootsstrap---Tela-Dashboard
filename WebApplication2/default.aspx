@@ -16,16 +16,16 @@
 
 
 </head>
-<body class=""> <!-- cria a cor de fundo -->
+<body > <!-- cria a cor de fundo para sites utilizar a classe bg-dark -->
     <form id="form1" runat="server">
-        <div class="bg-success">
-            <img src="Imagens/Prefeitura.png" /> 
-        </div>
+       <div class="bg-success">
+            <img src="Imagens/Prefeitura.png" />
+       </div> 
         <div class="container">
            <div class="card card-login mx-auto mt-5 "> <!-- mx-auto centraliza horizontalmente e mt5 faz margem no topo -->
                <div class="card-header">Login</div> <!-- div para cabeçalho -->
                <div class="card-body">
-                   <form >
+                   <form>
                        <div class="form-group">
                            <asp:Label ID="Label1" runat="server" Text="Usuario"></asp:Label>
                            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Digite seu Usuário"></asp:TextBox>
@@ -34,7 +34,7 @@
                            <asp:Label ID="Label2" runat="server" Text="Senha"></asp:Label>
                            <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" placeholder="Digite sua Senha"></asp:TextBox>
                        </div>
-                       <asp:Button ID="Button1" runat="server" Text="Entrar no Sistema" CssClass="btn btn-primary btn-block" /> <!-- btn block preenche o campo inteiro, no caso a div -->
+                       <asp:Button ID="Button1" runat="server" Text="Entrar no Sistema" CssClass="btn btn-primary btn-block" OnClick="Button1_Click" /> <!-- btn block preenche o campo inteiro, no caso a div -->
                        </div>
                    </form>
                </div>
