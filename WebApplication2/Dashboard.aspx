@@ -21,8 +21,8 @@
             <!-- nav permite a criação do menu -->
             <a href="#" class="navbar-brand">Admin</a>
             <!-- faz a inserção de itens no menu -->
-            <button id="Button1" runat="server" type="button" onserverclick="Button1_Click" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarCurso" aria-control="navbarCurso" aria-expanded="false" aria-label="Navegação Toggle">
-                <span class="navbar-toggler-icon"></span>
+            <button id="Button1" runat="server" type="button"  class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarCurso" aria-control="navbarCurso" aria-expanded="false" aria-label="Navegação Toggle">
+                <span class="navbar-toggler-icon"></span> <!-- não colocar onserverclick="Button1_Click" no botão para exibição -->
                 <!-- serve para quando a janela for menor, você consiga exibir o menu clicando no botão, só funciona quando a tela for menor -->
             </button>
             <!-- não consegui inserir span dentro do botão pelo asp, só criando um botão simples, orientação dada no site do aspnet forum -->
@@ -87,7 +87,7 @@
                             <div class="input-group">
                                 <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control " placeholder="Pesquisar por ...."></asp:TextBox>
                                 <span class="input-group-btn">
-                                    <button id="Button2" runat="server" onserverclick="Button1_Click" class=" btn btn-primary" type="button">
+                                    <button id="Button2" runat="server" onserverclick="Button2_Click" class=" btn btn-primary" type="button">
                                         <i class="fa fa-search"></i>
                                     </button>
                             </div>
@@ -125,8 +125,8 @@
 
                     </div>
 
-                    <div class="row">
-                        <!-- criando um card dentro do body personalizado, ainda não funciona -->
+                   <!-- criando um card dentro do body personalizado, ainda não funciona  <div class="row">
+                        
                         <div class="col-xl-3 col-sm-6 mb-3">
                             <div class="card text-white bg-primary o-hidden h-100">
                                 <div class="card-body">
@@ -139,7 +139,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
 
 
                 </div>

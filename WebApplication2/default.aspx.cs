@@ -15,7 +15,7 @@ namespace WebApplication2
         }
 
 
-        protected void ImageButton1_Click(object sender, EventArgs e)
+        protected void Button1_Click(object sender, EventArgs e)
         {
 
         }
