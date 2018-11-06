@@ -199,6 +199,7 @@
     <Content Include="Dashboard\scss\_mixins.scss" />
     <Content Include="Dashboard\scss\_utilities.scss" />
     <Content Include="Dashboard\scss\_variables.scss" />
+    <Content Include="Tabela.aspx" />
     <Content Include="Telacadastro.aspx" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
@@ -246,6 +247,13 @@
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tabela.aspx.cs">
+      <DependentUpon>Tabela.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tabela.aspx.designer.cs">
+      <DependentUpon>Tabela.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Telacadastro.aspx.cs">
       <DependentUpon>Telacadastro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
